@@ -27,16 +27,17 @@
   text-transform: uppercase;
 }
 
-.rol-mini a {
-  color: #ffffff;
-  text-decoration: none;
-  font-weight: bold;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+.rol-mini a,
+.rol-mini a:link,
+.rol-mini a:visited,
+.rol-mini a:active {
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
 }
 
 .rol-mini a:hover {
-  color: #444444;
-  border-bottom: 1px solid #444444;
+  color: #444444 !important;
 }
 
 .rol-img {
