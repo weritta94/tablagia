@@ -27,6 +27,18 @@
   text-transform: uppercase;
 }
 
+.rol-mini a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.rol-mini a:hover {
+  color: #444444;
+  border-bottom: 1px solid #444444;
+}
+
 .rol-img {
   width: 100px;
   height: 100px;
