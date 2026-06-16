@@ -111,18 +111,15 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-.rol-mini a,
-.rol-mini a:link,
-.rol-mini a:visited,
-.rol-mini a:active,
-.rol-mini a:hover,
-.rol-mini a *,
-.rol-mini .mentiontag,
-.rol-mini .mentiontag *,
-.rol-bottom a,
-.rol-bottom a *,
-.rol-bottom .mentiontag,
-.rol-bottom .mentiontag * {
+.rol-cont .rol-mini a,
+.rol-cont .rol-mini a:link,
+.rol-cont .rol-mini a:visited,
+.rol-cont .rol-mini a:active,
+.rol-cont .rol-mini a:hover,
+.rol-cont .rol-mini a *,
+.rol-cont .rol-mini a span {
   color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff !important;
   text-decoration: none !important;
+  text-shadow: none !important;
 }
